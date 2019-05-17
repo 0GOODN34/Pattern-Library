@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Pattern Library</title>
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/prism.css">
+
+
+	<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+
+	<!-- Presentation Only Styles -->
+	<link rel="stylesheet" href="presentation/css/presentation.css">
+</head>
+<body>
+
+
+	<div class="pres-widget">
+		<p><strong>Jump to:</strong></p>
+
+		<ul>
+			<li><a href="#top">Top</a></li>
+			<li><a href="#nav-grid">The Grid System</a></li>
+			<li><a href="#nav-typography">Typography</a></li>
+			<li><a href="#nav-buttons">Buttons</a></li>
+			<li><a href="#nav-jumbotron">Jumbotron</a></li>
+			<li><a href="#nav-icons">Icons</a></li>
+			<li><a href="#nav-feedback">Feedback</a></li>
+			<li><a href="#nav-navigation">Navigation</a></li>
+			<li><a href="#nav-animations">Animations</a></li>
+			<li><a href="#nav-tabs">Tabs</a></li>
+			<li><a href="#nav-accordions">Accordions</a></li>
+			<li><a href="#nav-carousels">Carousels</a></li>
+			<li><a href="#nav-footer">Footer</a></li>
+		</ul>
+	</div>
+
+
+
+	<!-- Presentation Header -->
+	<div class="container" id="top">
+		<header class="pres-header">
+			<h3>Pattern Library</h3>
+			<a href="PatternLibrary.zip" download> Download Me</a>
+			<p>By Niall Goodhew</p>
+		</header>
+	</div>
+
+
+
+	<!-- The Grid System -->
+	<section>
+		<div class="container">
+			<h1 id="nav-grid">The Grid System</h1>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-12">
+					<div class="demo-col">.col-12</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6">
+					<div class="demo-col">.col-6</div>
+				</div>
+				<div class="col-6">
+					<div class="demo-col">.col-6</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-4">
+					<div class="demo-col">.col-4</div>
+				</div>
+				<div class="col-4">
+					<div class="demo-col">.col-4</div>
+				</div>
+				<div class="col-4">
+					<div class="demo-col">.col-4</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-3">
+					<div class="demo-col">.col-3</div>
+				</div>
+				<div class="col-3">
+					<div class="demo-col">.col-3</div>
+				</div>
+				<div class="col-3">
+					<div class="demo-col">.col-3</div>
+				</div>
+				<div class="col-3">
+					<div class="demo-col">.col-3</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-5">
+					<div class="demo-col">.col-5</div>
+				</div>
+				<div class="col-7">
+					<div class="demo-col">.col-7</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-4">
+					<div class="demo-col">.col-4</div>
+				</div>
+				<div class="col-8">
+					<div class="demo-col">.col-8</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-9">
+					<div class="demo-col">.col-9</div>
+				</div>
+				<div class="col-3">
+					<div class="demo-col">.col-3</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-10">
+					<div class="demo-col">.col-10</div>
+				</div>
+				<div class="col-2">
+					<div class="demo-col">.col-2</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-11">
+					<div class="demo-col">.col-11</div>
+				</div>
+				<div class="col-1">
+					<div class="demo-col">.col-1</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-half">
+					<div class="demo-col">.col-half</div>
+				</div>
+				<div class="col-half">
+					<div class="demo-col">.col-half</div>
+				</div>
+
+			<div class="row">
+				<div class="col-third">
+					<div class="demo-col">.col-third</div>
+				</div>
+				<div class="col-two-thirds">
+					<div class="demo-col">.col-two-thirds</div>
+				</div>
+
+			<div class="row">
+				<div class="col-quarter">
+					<div class="demo-col">.col-quarter</div>
+				</div>
+				<div class="col-quarter">
+					<div class="demo-col">.col-quarter</div>
+				</div>
+				<div class="col-half">
+					<div class="demo-col">.col-half</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-4">
+					<h5>Notes</h5>
+
+					<p>Here's a code snippets that will explain how the grid works.</p> The Grid system works well for the layout of content on a page also having the ability to be used to be responsive to screen size increase or decrase the screen size now to see what happens to the grid.
+				</div>
+
+				<div class="col-8">
+					<pre class="line-numbers"><code class="language-markup">			&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;col-quarter&quot;&gt;
+					&lt;div class=&quot;demo-col&quot;&gt;.col-quarter&lt;/div&gt;
+				&lt;/div&gt; &lt;!-- end col-quarter --&gt;
+				&lt;div class=&quot;col-quarter&quot;&gt;
+					&lt;div class=&quot;demo-col&quot;&gt;.col-quarter&lt;/div&gt;
+				&lt;/div&gt; &lt;!-- end col-quarter --&gt;
+				&lt;div class=&quot;col-half&quot;&gt;
+					&lt;div class=&quot;demo-col&quot;&gt;.col-half&lt;/div&gt;
+				&lt;/div&gt; &lt;!-- end col-half --&gt;
+			&lt;/div&gt; &lt;!-- end row --&gt;
+</code></pre>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Typography -->
+	<section>
+		<div class="container">
+			<h1 id="nav-typography">Typography</h1>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-half">
+					<h1>Heading 1</h1>
+					<h2>Heading 2</h2>
+					<h3>Heading 3</h3>
+					<h4>Heading 4</h4>
+					<h5>Heading 5</h5>
+					<h6>Heading 6</h6>
+					The above headings are showing the diffrent sizes of headings that can be used using the tags h1,h2,h3,h4,h5,h6.
+				</div>
+
+				<div class="col-half">
+					<p>Using links in text though the use of simple coding keywords with the href tag <a href="">This is a link</a> these can be used anywhere when needed to link to a website</p>
+
+					<p>Other forms of keywords include using certain aspects that impact on text. <br> <strong>This makes text stand out like highlighted</strong> <br> <em>The next style makes emphasized text</em><br> <strike>read this text</strike> This previous text is using the strike tag to put a line though the text.</p>
+
+					<pre class="headings"><code class="language-markup">
+						&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-half&quot;&gt;
+					&lt;h1&gt;Heading 1&lt;/h1&gt;
+					&lt;h1&gt;Heading 2&lt;/h1&gt;
+					&lt;h1&gt;Heading 3&lt;/h1&gt;
+					&lt;h1&gt;Heading 4&lt;/h1&gt;
+					&lt;h1&gt;Heading 5&lt;/h1&gt;
+					&lt;h1&gt;Heading 6&lt;/h1&gt;
+
+					&lt;/div&gt;
+					&lt;/div&gt;
+					</code></pre>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-half">
+					<h4>Unordered list</h4>
+
+					<ul>
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li>Item 3</li>
+						<li>Item 4</li>
+						<li>Item 5</li>
+					</ul>
+					The above list is creadted using an unordered list. using the tag "ul" for unordered list  followed by "li" list item.
+					<pre class="headings"><code class="language-markup">
+						&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-half&quot;&gt;
+					&lt;ul&gt;
+					&lt;li&gt;Item 1&lt;/li&gt;
+					&lt;li&gt;Item 2&lt;/li&gt;
+					&lt;li&gt;Item 3&lt;/li&gt;
+					&lt;li&gt;Item 4&lt;/li&gt;
+					&lt;li&gt;Item 5&lt;/li&gt;
+					&lt;/ul&gt;
+
+					&lt;/div&gt;
+					&lt;/div&gt;
+					</code></pre>
+
+
+				</div>
+				<div class="col-half">
+					<h4>Ordered list</h4>
+
+					<ol>
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li>Item 3</li>
+						<li>Item 4</li>
+						<li>Item 5</li>
+					</ol>
+					The above list is creadted using an ordered list. using the tag "ol" for ordered list  followed by "li" list item.
+					<pre class="headings"><code class="language-markup">
+						&lt;div class=&quot;row&quot;&gt;
+					&lt;div class=&quot;col-half&quot;&gt;
+					&lt;ol&gt;
+					&lt;li&gt;Item 1&lt;/li&gt;
+					&lt;li&gt;Item 2&lt;/li&gt;
+					&lt;li&gt;Item 3&lt;/li&gt;
+					&lt;li&gt;Item 4&lt;/li&gt;
+					&lt;li&gt;Item 5&lt;/li&gt;
+					&lt;/ol&gt;
+
+					&lt;/div&gt;
+					&lt;/div&gt;
+					</code></pre>
+				</div>
+			</div>
+
+			<hr>
+
+			<blockquote>
+				This is a blockquote.
+				<footer><a href="">This is the author.</a></footer>
+			</blockquote>
+		</div>
+	</section>
+
+
+
+	<!-- Buttons -->
+	<section>
+		<div class="container">
+			<h1 id="nav-buttons">Buttons</h1>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-4">
+					<h4>Button styles</h4>
+
+					<p>
+						<button class="btn">Default style</button>
+						<button class="btn-primary">Primary style</button>
+						<button class="btn-secondary">Secondary style</button><p>
+						<button class="btn-success">Success style</button>
+						<button class="btn-info">Info style</button>
+						<button class="btn-warning">Warning style</button>
+					</p>
+					<pre class="button-styles"><code class="language-markup">
+						&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;col-4&quot;&gt;
+					&lt;button class=&quot;btn&quot;&gt;Default style&lt;/button&gt;
+					&lt;button class=&quot;btn-primary&quot;&gt;Primary style&lt;/button&gt;
+					&lt;button class=&quot;btn-secondary&quot;&gt;Secondary style&lt;/button&gt;
+					&lt;button class=&quot;btn-successo&quot;&gt;Success style&lt;/button&gt;
+					&lt;button class=&quot;btn-info&quot;&gt;Info style&lt;/button&gt;
+					&lt;button class=&quot;btn-warning&quot;&gt;Default style&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+
+				<div class="col-4">
+					<h4>Button sizes</h4>
+
+					<p><button class="btn-small">Small size</button></p>
+					<p><button class="btn">Default size</button></p>
+					<p><button class="btn-large">Large size</button></p>
+					<pre class="button-styles"><code class="language-markup">
+						&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;col-4&quot;&gt;
+					&lt;button class=&quot;btn-small&quot;&gt;Small size&lt;/button&gt;
+					&lt;button class=&quot;btn&quot;&gt;Default size&lt;/button&gt;
+					&lt;button class=&quot;btn-large&quot;&gt;Large size&lt;/button&gt;
+
+				&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+
+				<div class="col-4">
+					<h4>HTML elements</h4>
+
+					<p><button class="btn">Button</button></p>
+					<p><a href="" class="btn">Anchor tag</a></p>
+					<p><input type="submit" class="btn" value="Submit input"></p>
+					<p><input type="button" class="btn" value="Button input"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Jumbotron -->
+	<section>
+		<div class="container">
+			<h1 id="nav-jumbotron">Jumbotron</h1>
+
+			<hr>
+
+			<div class="col-12">
+				<h1 class="display-4">Hello, world!</h1>
+<p class="lead">This is a Jumbotron used to make people more aware of infomation.</p>
+<hr class="my-4">
+<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+<p class="lead">
+ <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/4.0/components/jumbotron/" role="button">Learn more</a>
+</p>
+			</div>
+	</section>
+
+
+
+	<!-- Icons -->
+	<section>
+		<div class="container">
+			<h1 id="nav-icons">Icons</h1>
+
+			<hr>
+
+			<i class="fa fa-coffee fa-3x"></i>
+
+			<div class="row">
+				<div class="col-half">
+					<h4>Bordered icons</h4>
+
+					<div class="icon-circle">
+						<i class="fa fa-coffee"></i>
+					</div>
+
+					<p>Circle</p>
+
+					<div class="icon-rounded">
+						<i class="fa fa-coffee"></i>
+					</div>
+
+					<p>Rounded</p>
+
+					<div class="icon-square">
+						<i class="fa fa-coffee"></i>
+					</div>
+
+					<p>Square</p>
+					<pre class="icon-borders"><code class="language-markup">
+						&lt;div class=&quot;row&quot;&gt;
+				&lt;div class=&quot;col-half&quot;&gt;
+					&lt;div class=&quot;icon-circle&quot;&lt;/div&gt;
+					&lt;div class=&quot;icon-rounded&quot;&lt;/div&gt;
+					&lt;div class=&quot;icon-square&quot;&lt;/div&gt;
+
+				&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+
+				<div class="col-half">
+					<h4>Icon sizes</h4>
+
+					<div class="icon-circle">
+						<i class="fa fa-coffee"></i>
+					</div> <!-- end icon-circle -->
+
+					<p>Default</p>
+
+					<div class="icon-circle icon-large">
+						<i class="fa fa-coffee"></i>
+					</div> <!-- end icon-circle -->
+
+					<p>Large</p>
+
+					<div class="icon-circle icon-huge">
+						<i class="fa fa-coffee"></i>
+					</div> <!-- end icon-circle -->
+
+					<p>Huge</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Feedback -->
+	<section>
+		<div class="container">
+			<h1 id="nav-feedback">Feedback</h1>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-half">
+					<div class="alert-information">
+						<p><strong>Information</strong></p>
+						<p>This is the body of the Infomation message!</p>
+					</div>
+					<pre class="feedback-info"><code class="language-markup">
+				&lt;div class=&quot;col-half&quot;&gt;
+					&lt;div class=&quot;alert-infomation&quot;&gt;
+					&lt;p&gt;&lt;strong&gt;&quot;Information&quot;&lt;/p&gt;&lt;/strong&gt;
+					&lt;p&gt;&quot;This is the body of the Information message!&quot;&lt;/p&gt;
+			&lt;/div&gt;
+</code></pre>
+
+					<div class="alert-error">
+						<p><strong>Error</strong></p>
+						<p>This is the body of the Error message!</p>
+					</div>
+					<pre class="feedback-error"><code class="language-markup">
+				&lt;div class=&quot;col-half&quot;&gt;
+					&lt;div class=&quot;alert-error&quot;&gt;
+					&lt;p&gt;&lt;strong&gt;&quot;Error&quot;&lt;/p&gt;&lt;/strong&gt;
+					&lt;p&gt;&quot;This is the body of the Error message!&quot;&lt;/p&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+
+				<div class="col-half">
+					<div class="alert-warning">
+						<p><strong>Warning</strong></p>
+						<p>This is the body of the Warning message!</p>
+					</div>
+					<pre class="feedback-warning"><code class="language-markup">
+				&lt;div class=&quot;col-half&quot;&gt;
+					&lt;div class=&quot;alert-warning&quot;&gt;
+					&lt;p&gt;&lt;strong&gt;&quot;Warning&quot;&lt;/p&gt;&lt;/strong&gt;
+					&lt;p&gt;&quot;This is the body of the Warning message!&quot;&lt;/p&gt;
+			&lt;/div&gt;
+</code></pre>
+
+					<div class="alert-success">
+						<p><strong>Success</strong></p>
+						<p>This is the body of the Success message!</p>
+					</div>
+					<pre class="feedback-success"><code class="language-markup">
+				&lt;div class=&quot;col-half&quot;&gt;
+					&lt;div class=&quot;alert-success&quot;&gt;
+					&lt;p&gt;&lt;strong&gt;&quot;Success&quot;&lt;/p&gt;&lt;/strong&gt;
+					&lt;p&gt;&quot;This is the body of the Success message!&quot;&lt;/p&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Navigation -->
+	<section>
+		<div class="container">
+			<h1 id="nav-navigation">Navigation</h1>
+
+			<hr>
+
+			<div class="row navbar-container">
+				<div class="col-4">
+					<a href="" class="logo"><img src="images/demo/logo.png" alt="Demo logo"></a>
+				</div>
+
+				<div class="col-8">
+					<button class="btn" id="rwd-trigger">Toggle Menu</button>
+
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="">Item 1</a></li>
+							<li>
+								<a href="">Item 2</a>
+								<ul>
+									<li><a href="">Subitem 1</a></li>
+									<li><a href="">Subitem 2</a></li>
+									<li><a href="">Subitem 3</a></li>
+									<li><a href="">Subitem 4</a></li>
+								</ul>
+							</li>
+							<li><a href="">Item 3</a></li>
+							<li><a href="">Item 4</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<pre class="navigation"><code class="language-markup">
+			&lt;nav&gt;
+			&lt;ul class=&quot;sf-menu&quot;&gt;
+		&lt;li&gt;&lt;a href=""&gt;Item1&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;
+		&lt;a href=""&gt;Item2&lt;/a&gt;
+		&lt;ul&gt;
+		&lt;li&gt;&lt;a href=""&gt;Subitem 1&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=""&gt;Subitem 2&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=""&gt;Subitem 3&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=""&gt;Subitem 4&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;li&gt;
+		&lt;li&gt;&lt;a href=""&gt;Item3&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=""&gt;Item4&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;/nav&gt;
+		&lt;/div&gt;
+		</code></pre>
+	</section>
+
+
+
+	<!-- Animations -->
+	<section>
+		<div class="container">
+			<h1 id="nav-animations">Animations</h1>
+
+			<hr>
+
+			<div class="row" id="demo-animations">
+				<div class="col-2">
+					<div class="demo-col">bounce</div>
+					<pre class="animation-bounce"><code class="language-markup">
+				&lt;div class=&quot;col-2&quot;
+					&lt;div class=&quot;demo-col&quot;&gt;&quot;bounce&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+				<div class="col-2">
+					<div class="demo-col">flash</div>
+					<pre class="animation-flash"><code class="language-markup">
+				&lt;div class=&quot;col-2&quot;
+					&lt;div class=&quot;demo-col&quot;&gt;&quot;flash&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+				<div class="col-2">
+					<div class="demo-col">pulse</div>
+					<pre class="animation-pulse"><code class="language-markup">
+				&lt;div class=&quot;col-2&quot;
+					&lt;div class=&quot;demo-col&quot;&gt;&quot;pulse&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+				<div class="col-2">
+					<div class="demo-col">rubberBand</div>
+					<pre class="animation-rubberBand"><code class="language-markup">
+				&lt;div class=&quot;col-2&quot;
+					&lt;div class=&quot;demo-col&quot;&gt;&quot;rubberBand&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+				<div class="col-2">
+					<div class="demo-col">shake</div>
+					<pre class="animation-shake"><code class="language-markup">
+				&lt;div class=&quot;col-2&quot;
+					&lt;div class=&quot;demo-col&quot;&gt;&quot;shake&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+				<div class="col-2">
+					<div class="demo-col">swing</div>
+					<pre class="animation-swing"><code class="language-markup">
+				&lt;div class=&quot;col-2&quot;
+					&lt;div class=&quot;demo-col&quot;&gt;&quot;swing&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+</code></pre>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Tabs -->
+	<section>
+		<div class="container">
+			<h1 id="nav-tabs">Tabs</h1>
+
+			<hr>
+
+			<div class="tabs">
+				<ul class="tabs-links">
+					<li class="active"><a href="#tab-1">First</a></li>
+					<li><a href="#tab-2">Second</a></li>
+					<li><a href="#tab-3">Third</a></li>
+				</ul>
+
+				<div class="tabs-content">
+					<div class="tab active" id="tab-1">
+						<p>First Tab</p>
+					</div>
+					<div class="tab" id="tab-2">
+						<p>The next tab along. </p>
+					</div>
+					<div class="tab" id="tab-3">
+						<p>The next tab along from the one that you just pressed.</p>
+					</div>
+				</div>
+			</div>
+			<pre class="tabs"><code class="language-markup">
+		&lt;div class=&quot;tabs&quot;&gt;
+		&lt;ul class=&quot;tabs-links&quot;&gt;
+		&lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#tab-1&quot;&gt;&quot;First&quot;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#tab-2&quot;&gt;&quot;Second&quot;&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;#tab-3&quot;&gt;&quot;Third&quot;&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+
+		&lt;div class=&quot;tabs-content&quot;&gt;
+		&lt;div class=&quot;tabs-active&quot; id=&quot;tab-1&quot;&gt;
+		&lt;p&gt;&quot;First Tab&quot;&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;tab&quot; id=&quot;tab-2&quot;&gt;
+		&lt;p&gt;&quot;The next tab along&quot;&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;tab&quot; id=&quot;tab-3&quot;&gt;
+		&lt;p&gt;&quot;The next tab along from the one that you just pressed&quot;&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+</code></pre>
+		</div>
+	</section>
+
+
+
+	<!-- Accordions -->
+	<section>
+		<div class="container">
+			<h1 id="nav-accordions">Accordions</h1>
+
+			<hr>
+
+			<div class="accordion">
+				<div class="accordion-element">
+					<a href="#accordion-element-1" class="accordion-element-title">First</a>
+
+					<div id="accordion-element-1" class="accordion-element-content">
+						<p>The first accordion</p>
+					</div>
+				</div>
+
+				<div class="accordion-element">
+					<a href="#accordion-element-2" class="accordion-element-title">Second</a>
+
+					<div id="accordion-element-2" class="accordion-element-content">
+						<p>The following accordion from the last one</p>
+					</div>
+				</div>
+
+				<div class="accordion-element">
+					<a href="#accordion-element-3" class="accordion-element-title">Third</a>
+
+					<div id="accordion-element-3" class="accordion-element-content">
+						<p>The last accordion in the list.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<pre class="accordion"><code class="language-markup">
+	&lt;div class=&quot;accordion&quot;&gt;
+	&lt;ul class=&quot;accordion-element&quot;&gt;
+	&lt;a href=&quot;#accordion-element-1&quot;	class=&quot;accordion-element-title&quot;&gt;&quot;First&quot;&lt;/a&gt;
+
+   &lt;div id=&quot;#accordion-element-1&quot; class=&quot;accordion-element-content&quot;&gt;
+	 &lt;p&gt;&quot;The first accordion&quot;&lt;/p&gt;
+	 &lt;/div&gt;
+	&lt;/div&gt;
+
+
+	&lt;ul class=&quot;accordion-element&quot;&gt;
+	&lt;a href=&quot;#accordion-element-2&quot;	class=&quot;accordion-element-title&quot;&gt;&quot;Second&quot;&lt;/a&gt;
+
+   &lt;div id=&quot;#accordion-element-2&quot; class=&quot;accordion-element-content&quot;&gt;
+	 &lt;p&gt;&quot;The following accordion from the last one&quot;&lt;/p&gt;
+	 &lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;ul class=&quot;accordion-element&quot;&gt;
+	&lt;a href=&quot;#accordion-element-3&quot;	class=&quot;accordion-element-title&quot;&gt;&quot;Third&quot;&lt;/a&gt;
+
+   &lt;div id=&quot;#accordion-element-3&quot; class=&quot;accordion-element-content&quot;&gt;
+	 &lt;p&gt;&quot;The last accordion in the list.&quot;&lt;/p&gt;
+	 &lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+</code></pre>
+	</section>
+
+
+
+	<!-- Carousels -->
+	<div class="section">
+		<div class="container">
+			<h1 id="nav-carousels">Carousels</h1>
+
+			<hr>
+
+			<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="3000" data-cycle-caption-template="Slide no. {{slideNum}} of {{slideCount}} - {{cycleTitle}}">
+				<div class="cycle-caption"></div>
+
+				<div class="cycle-prev"><i class="fa fa-chevron-left"></i></div>
+				<div class="cycle-next"><i class="fa fa-chevron-right"></i></div>
+
+				<img src="images/demo/img-1.jpg" alt="Slider image 1" data-cycle-title="First image">
+				<img src="images/demo/img-2.jpg" alt="Slider image 2" data-cycle-title="Second image">
+				<img src="images/demo/img-3.jpg" alt="Slider image 3" data-cycle-title="Third image">
+				<img src="images/demo/img-4.jpg" alt="Slider image 4" data-cycle-title="Fourth image">
+			</div>
+		</div>
+		<pre class="carousel"><code class="language-markup">
+	&lt;div class=&quot;cycle-slideshow&quot; data-cycle-fx=&quot;scrollHorz&quot; data-cycle-timeout=&quot;3000 &quot;data-cycle-caption-template=&quot; Slide no. {{slideNum}} of {{slideCount}} - {{cycleTitle}}&quot;&gt;
+	&lt;div class=&quot;cycle-caption&quot;&gt;&lt;/div&gt;
+
+	&lt;div class=&quot;cycle-prev&quot;&gt;&lt;i class=&quot;fa fa-chevron-left&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+	&lt;div class=&quot;cycle-next&quot;&gt;&lt;i class=&quot;fa fa-chevron-right&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+
+  &lt;img src=&quot;images/demo/img-1.jpg&quot; alt=&quot;Slider image 1&quot; data-cycle-title=&quot;First image&quot;&gt;
+  &lt;img src=&quot;images/demo/img-2.jpg&quot; alt=&quot;Slider image 2&quot; data-cycle-title=&quot;Second image&quot;&gt;
+  &lt;img src=&quot;images/demo/img-3.jpg&quot; alt=&quot;Slider image 3&quot; data-cycle-title=&quot;Third image&quot;&gt;
+  &lt;img src=&quot;images/demo/img-4.jpg&quot; alt=&quot;Slider image 4&quot; data-cycle-title=&quot;Fourth image&quot;&gt;
+
+	 &lt;/div&gt;
+	&lt;/div&gt;
+
+</code></pre>
+	</div>
+
+	<section>
+		<div class="container">
+			<h1 id="nav-footer">Footer</h1>
+
+			<hr>
+			<div class="col-12">
+				<footer>
+      <p>&copy; 2019 Niall Goodhew.</p>
+      <a href= "http://www.facebook.com"> <img src="images/demo/FB.png" alt="Facebook Logo" width="50" height="50"> </a>
+      <a href = "http://www.twitter.com"> <img src= "images/demo/twitter.png" alt="twitter logo" width="50" height="50"> </a>
+
+    </footer>
+		<pre class="footer"><code class="language-markup">
+	&lt;div class=&quot;col-12&quot;&gt;
+	&lt;footer&gt;
+  &lt;p&gt;&copy;&quot; 2019 Niall Goodhew&quot;&lt;p&gt;
+	  &lt;a href=&quot;http://www.facebook.com &quot;&gt; &lt;img src=&quot;images/demo/FB.png&quot; alt=&quot;Facebook Logo&quot; width=&quot;50&quot; height=&quot;50&quot;&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://www.twitter.com &quot;&gt; &lt;img src=&quot;images/demo/twitter.png&quot; alt=&quot;twitter logo&quot; width=&quot;50&quot; height=&quot;50&quot;&gt;&lt;/a&gt;
+	 &lt;/footer&gt;
+
+
+</code></pre>
+
+			</div>
+
+	</section>
+
+
+
+
+	<script src="bower_components/jquery/jquery.min.js"></script>
+	<script src="bower_components/superfish/dist/js/superfish.min.js"></script>
+	<script src="bower_components/superfish/dist/js/hoverIntent.js"></script>
+	<script src="bower_components/jquery-cycle2/build/jquery.cycle2.min.js"></script>
+	<script src="js/prism.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>
